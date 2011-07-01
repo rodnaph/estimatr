@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'EstimatrTests' target in the 'EstimatrTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

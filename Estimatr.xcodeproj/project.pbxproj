@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC72EAD013BE053700A5B3DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EACF13BE053700A5B3DB /* UIKit.framework */; };
+		DC72EAD213BE053700A5B3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EAD113BE053700A5B3DB /* Foundation.framework */; };
+		DC72EAD413BE053700A5B3DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EAD313BE053700A5B3DB /* CoreGraphics.framework */; };
+		DC72EADA13BE053700A5B3DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAD813BE053700A5B3DB /* InfoPlist.strings */; };
+		DC72EADD13BE053700A5B3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EADC13BE053700A5B3DB /* main.m */; };
+		DC72EAE013BE053700A5B3DB /* EstimatrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EADF13BE053700A5B3DB /* EstimatrAppDelegate.m */; };
+		DC72EAE313BE053700A5B3DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAE113BE053700A5B3DB /* MainWindow.xib */; };
+		DC72EAE613BE053700A5B3DB /* EstimatrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EAE513BE053700A5B3DB /* EstimatrViewController.m */; };
+		DC72EAE913BE053700A5B3DB /* EstimatrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAE713BE053700A5B3DB /* EstimatrViewController.xib */; };
+		DC72EAF013BE053800A5B3DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EACF13BE053700A5B3DB /* UIKit.framework */; };
+		DC72EAF113BE053800A5B3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EAD113BE053700A5B3DB /* Foundation.framework */; };
+		DC72EAF213BE053800A5B3DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EAD313BE053700A5B3DB /* CoreGraphics.framework */; };
+		DC72EAFA13BE053800A5B3DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAF813BE053800A5B3DB /* InfoPlist.strings */; };
+		DC72EAFD13BE053800A5B3DB /* EstimatrTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAFC13BE053800A5B3DB /* EstimatrTests.h */; };
+		DC72EAFF13BE053800A5B3DB /* EstimatrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EAFE13BE053800A5B3DB /* EstimatrTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC72EAF313BE053800A5B3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC72EAC213BE053600A5B3DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC72EACA13BE053700A5B3DB;
+			remoteInfo = Estimatr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC72EACB13BE053700A5B3DB /* Estimatr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estimatr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72EACF13BE053700A5B3DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC72EAD113BE053700A5B3DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC72EAD313BE053700A5B3DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC72EAD713BE053700A5B3DB /* Estimatr-Info.plist */ = {isa = PBXFileReference; path = "Estimatr-Info.plist"; sourceTree = "<group>"; };
+		DC72EAD913BE053700A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC72EADB13BE053700A5B3DB /* Estimatr-Prefix.pch */ = {isa = PBXFileReference; path = "Estimatr-Prefix.pch"; sourceTree = "<group>"; };
+		DC72EADC13BE053700A5B3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC72EADE13BE053700A5B3DB /* EstimatrAppDelegate.h */ = {isa = PBXFileReference; path = EstimatrAppDelegate.h; sourceTree = "<group>"; };
+		DC72EADF13BE053700A5B3DB /* EstimatrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatrAppDelegate.m; sourceTree = "<group>"; };
+		DC72EAE213BE053700A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DC72EAE413BE053700A5B3DB /* EstimatrViewController.h */ = {isa = PBXFileReference; path = EstimatrViewController.h; sourceTree = "<group>"; };
+		DC72EAE513BE053700A5B3DB /* EstimatrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatrViewController.m; sourceTree = "<group>"; };
+		DC72EAE813BE053700A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EstimatrViewController.xib; sourceTree = "<group>"; };
+		DC72EAEF13BE053800A5B3DB /* EstimatrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimatrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC72EAF713BE053800A5B3DB /* EstimatrTests-Info.plist */ = {isa = PBXFileReference; path = "EstimatrTests-Info.plist"; sourceTree = "<group>"; };
+		DC72EAF913BE053800A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC72EAFB13BE053800A5B3DB /* EstimatrTests-Prefix.pch */ = {isa = PBXFileReference; path = "EstimatrTests-Prefix.pch"; sourceTree = "<group>"; };
+		DC72EAFC13BE053800A5B3DB /* EstimatrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EstimatrTests.h; sourceTree = "<group>"; };
+		DC72EAFE13BE053800A5B3DB /* EstimatrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatrTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC72EAC813BE053700A5B3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72EAD013BE053700A5B3DB /* UIKit.framework in Frameworks */,
+				DC72EAD213BE053700A5B3DB /* Foundation.framework in Frameworks */,
+				DC72EAD413BE053700A5B3DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72EAEB13BE053800A5B3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72EAF013BE053800A5B3DB /* UIKit.framework in Frameworks */,
+				DC72EAF113BE053800A5B3DB /* Foundation.framework in Frameworks */,
+				DC72EAF213BE053800A5B3DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC72EAC013BE053600A5B3DB = {
+			isa = PBXGroup;
+			children = (
+				DC72EAD513BE053700A5B3DB /* Estimatr */,
+				DC72EAF513BE053800A5B3DB /* EstimatrTests */,
+				DC72EACE13BE053700A5B3DB /* Frameworks */,
+				DC72EACC13BE053700A5B3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC72EACC13BE053700A5B3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC72EACB13BE053700A5B3DB /* Estimatr.app */,
+				DC72EAEF13BE053800A5B3DB /* EstimatrTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC72EACE13BE053700A5B3DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC72EACF13BE053700A5B3DB /* UIKit.framework */,
+				DC72EAD113BE053700A5B3DB /* Foundation.framework */,
+				DC72EAD313BE053700A5B3DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC72EAD513BE053700A5B3DB /* Estimatr */ = {
+			isa = PBXGroup;
+			children = (
+				DC72EADE13BE053700A5B3DB /* EstimatrAppDelegate.h */,
+				DC72EADF13BE053700A5B3DB /* EstimatrAppDelegate.m */,
+				DC72EAE113BE053700A5B3DB /* MainWindow.xib */,
+				DC72EAE413BE053700A5B3DB /* EstimatrViewController.h */,
+				DC72EAE513BE053700A5B3DB /* EstimatrViewController.m */,
+				DC72EAE713BE053700A5B3DB /* EstimatrViewController.xib */,
+				DC72EAD613BE053700A5B3DB /* Supporting Files */,
+			);
+			path = Estimatr;
+			sourceTree = "<group>";
+		};
+		DC72EAD613BE053700A5B3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC72EAD713BE053700A5B3DB /* Estimatr-Info.plist */,
+				DC72EAD813BE053700A5B3DB /* InfoPlist.strings */,
+				DC72EADB13BE053700A5B3DB /* Estimatr-Prefix.pch */,
+				DC72EADC13BE053700A5B3DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC72EAF513BE053800A5B3DB /* EstimatrTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC72EAFC13BE053800A5B3DB /* EstimatrTests.h */,
+				DC72EAFE13BE053800A5B3DB /* EstimatrTests.m */,
+				DC72EAF613BE053800A5B3DB /* Supporting Files */,
+			);
+			path = EstimatrTests;
+			sourceTree = "<group>";
+		};
+		DC72EAF613BE053800A5B3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC72EAF713BE053800A5B3DB /* EstimatrTests-Info.plist */,
+				DC72EAF813BE053800A5B3DB /* InfoPlist.strings */,
+				DC72EAFB13BE053800A5B3DB /* EstimatrTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC72EACA13BE053700A5B3DB /* Estimatr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72EB0213BE053800A5B3DB /* Build configuration list for PBXNativeTarget "Estimatr" */;
+			buildPhases = (
+				DC72EAC713BE053700A5B3DB /* Sources */,
+				DC72EAC813BE053700A5B3DB /* Frameworks */,
+				DC72EAC913BE053700A5B3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Estimatr;
+			productName = Estimatr;
+			productReference = DC72EACB13BE053700A5B3DB /* Estimatr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC72EAEE13BE053800A5B3DB /* EstimatrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC72EB0513BE053800A5B3DB /* Build configuration list for PBXNativeTarget "EstimatrTests" */;
+			buildPhases = (
+				DC72EAEA13BE053800A5B3DB /* Sources */,
+				DC72EAEB13BE053800A5B3DB /* Frameworks */,
+				DC72EAEC13BE053800A5B3DB /* Resources */,
+				DC72EAED13BE053800A5B3DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC72EAF413BE053800A5B3DB /* PBXTargetDependency */,
+			);
+			name = EstimatrTests;
+			productName = EstimatrTests;
+			productReference = DC72EAEF13BE053800A5B3DB /* EstimatrTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC72EAC213BE053600A5B3DB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DC72EAC513BE053600A5B3DB /* Build configuration list for PBXProject "Estimatr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC72EAC013BE053600A5B3DB;
+			productRefGroup = DC72EACC13BE053700A5B3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC72EACA13BE053700A5B3DB /* Estimatr */,
+				DC72EAEE13BE053800A5B3DB /* EstimatrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC72EAC913BE053700A5B3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72EADA13BE053700A5B3DB /* InfoPlist.strings in Resources */,
+				DC72EAE313BE053700A5B3DB /* MainWindow.xib in Resources */,
+				DC72EAE913BE053700A5B3DB /* EstimatrViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72EAEC13BE053800A5B3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72EAFA13BE053800A5B3DB /* InfoPlist.strings in Resources */,
+				DC72EAFD13BE053800A5B3DB /* EstimatrTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC72EAED13BE053800A5B3DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC72EAC713BE053700A5B3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72EADD13BE053700A5B3DB /* main.m in Sources */,
+				DC72EAE013BE053700A5B3DB /* EstimatrAppDelegate.m in Sources */,
+				DC72EAE613BE053700A5B3DB /* EstimatrViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC72EAEA13BE053800A5B3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC72EAFF13BE053800A5B3DB /* EstimatrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC72EAF413BE053800A5B3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC72EACA13BE053700A5B3DB /* Estimatr */;
+			targetProxy = DC72EAF313BE053800A5B3DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC72EAD813BE053700A5B3DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72EAD913BE053700A5B3DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC72EAE113BE053700A5B3DB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72EAE213BE053700A5B3DB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DC72EAE713BE053700A5B3DB /* EstimatrViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72EAE813BE053700A5B3DB /* en */,
+			);
+			name = EstimatrViewController.xib;
+			sourceTree = "<group>";
+		};
+		DC72EAF813BE053800A5B3DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC72EAF913BE053800A5B3DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC72EB0013BE053800A5B3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DC72EB0113BE053800A5B3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		DC72EB0313BE053800A5B3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estimatr/Estimatr-Prefix.pch";
+				INFOPLIST_FILE = "Estimatr/Estimatr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC72EB0413BE053800A5B3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estimatr/Estimatr-Prefix.pch";
+				INFOPLIST_FILE = "Estimatr/Estimatr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC72EB0613BE053800A5B3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Estimatr.app/Estimatr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EstimatrTests/EstimatrTests-Prefix.pch";
+				INFOPLIST_FILE = "EstimatrTests/EstimatrTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC72EB0713BE053800A5B3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Estimatr.app/Estimatr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EstimatrTests/EstimatrTests-Prefix.pch";
+				INFOPLIST_FILE = "EstimatrTests/EstimatrTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC72EAC513BE053600A5B3DB /* Build configuration list for PBXProject "Estimatr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72EB0013BE053800A5B3DB /* Debug */,
+				DC72EB0113BE053800A5B3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC72EB0213BE053800A5B3DB /* Build configuration list for PBXNativeTarget "Estimatr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72EB0313BE053800A5B3DB /* Debug */,
+				DC72EB0413BE053800A5B3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC72EB0513BE053800A5B3DB /* Build configuration list for PBXNativeTarget "EstimatrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC72EB0613BE053800A5B3DB /* Debug */,
+				DC72EB0713BE053800A5B3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC72EAC213BE053600A5B3DB /* Project object */;
+}
