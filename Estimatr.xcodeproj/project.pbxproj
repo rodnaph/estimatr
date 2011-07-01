@@ -13,9 +13,6 @@
 		DC72EADA13BE053700A5B3DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAD813BE053700A5B3DB /* InfoPlist.strings */; };
 		DC72EADD13BE053700A5B3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EADC13BE053700A5B3DB /* main.m */; };
 		DC72EAE013BE053700A5B3DB /* EstimatrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EADF13BE053700A5B3DB /* EstimatrAppDelegate.m */; };
-		DC72EAE313BE053700A5B3DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAE113BE053700A5B3DB /* MainWindow.xib */; };
-		DC72EAE613BE053700A5B3DB /* EstimatrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EAE513BE053700A5B3DB /* EstimatrViewController.m */; };
-		DC72EAE913BE053700A5B3DB /* EstimatrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAE713BE053700A5B3DB /* EstimatrViewController.xib */; };
 		DC72EAF013BE053800A5B3DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EACF13BE053700A5B3DB /* UIKit.framework */; };
 		DC72EAF113BE053800A5B3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EAD113BE053700A5B3DB /* Foundation.framework */; };
 		DC72EAF213BE053800A5B3DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72EAD313BE053700A5B3DB /* CoreGraphics.framework */; };
@@ -39,20 +36,16 @@
 		DC72EACF13BE053700A5B3DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC72EAD113BE053700A5B3DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC72EAD313BE053700A5B3DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC72EAD713BE053700A5B3DB /* Estimatr-Info.plist */ = {isa = PBXFileReference; path = "Estimatr-Info.plist"; sourceTree = "<group>"; };
+		DC72EAD713BE053700A5B3DB /* Estimatr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Estimatr-Info.plist"; sourceTree = "<group>"; };
 		DC72EAD913BE053700A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC72EADB13BE053700A5B3DB /* Estimatr-Prefix.pch */ = {isa = PBXFileReference; path = "Estimatr-Prefix.pch"; sourceTree = "<group>"; };
+		DC72EADB13BE053700A5B3DB /* Estimatr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Estimatr-Prefix.pch"; sourceTree = "<group>"; };
 		DC72EADC13BE053700A5B3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC72EADE13BE053700A5B3DB /* EstimatrAppDelegate.h */ = {isa = PBXFileReference; path = EstimatrAppDelegate.h; sourceTree = "<group>"; };
+		DC72EADE13BE053700A5B3DB /* EstimatrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EstimatrAppDelegate.h; sourceTree = "<group>"; };
 		DC72EADF13BE053700A5B3DB /* EstimatrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatrAppDelegate.m; sourceTree = "<group>"; };
-		DC72EAE213BE053700A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DC72EAE413BE053700A5B3DB /* EstimatrViewController.h */ = {isa = PBXFileReference; path = EstimatrViewController.h; sourceTree = "<group>"; };
-		DC72EAE513BE053700A5B3DB /* EstimatrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatrViewController.m; sourceTree = "<group>"; };
-		DC72EAE813BE053700A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EstimatrViewController.xib; sourceTree = "<group>"; };
 		DC72EAEF13BE053800A5B3DB /* EstimatrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimatrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC72EAF713BE053800A5B3DB /* EstimatrTests-Info.plist */ = {isa = PBXFileReference; path = "EstimatrTests-Info.plist"; sourceTree = "<group>"; };
+		DC72EAF713BE053800A5B3DB /* EstimatrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EstimatrTests-Info.plist"; sourceTree = "<group>"; };
 		DC72EAF913BE053800A5B3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC72EAFB13BE053800A5B3DB /* EstimatrTests-Prefix.pch */ = {isa = PBXFileReference; path = "EstimatrTests-Prefix.pch"; sourceTree = "<group>"; };
+		DC72EAFB13BE053800A5B3DB /* EstimatrTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EstimatrTests-Prefix.pch"; sourceTree = "<group>"; };
 		DC72EAFC13BE053800A5B3DB /* EstimatrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EstimatrTests.h; sourceTree = "<group>"; };
 		DC72EAFE13BE053800A5B3DB /* EstimatrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatrTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,12 +106,11 @@
 		DC72EAD513BE053700A5B3DB /* Estimatr */ = {
 			isa = PBXGroup;
 			children = (
+				DC72EB0A13BE1D8500A5B3DB /* Classes */,
+				DC72EB0913BE1D7A00A5B3DB /* Controllers */,
+				DC72EB0813BE1D7400A5B3DB /* Views */,
 				DC72EADE13BE053700A5B3DB /* EstimatrAppDelegate.h */,
 				DC72EADF13BE053700A5B3DB /* EstimatrAppDelegate.m */,
-				DC72EAE113BE053700A5B3DB /* MainWindow.xib */,
-				DC72EAE413BE053700A5B3DB /* EstimatrViewController.h */,
-				DC72EAE513BE053700A5B3DB /* EstimatrViewController.m */,
-				DC72EAE713BE053700A5B3DB /* EstimatrViewController.xib */,
 				DC72EAD613BE053700A5B3DB /* Supporting Files */,
 			);
 			path = Estimatr;
@@ -153,6 +145,27 @@
 				DC72EAFB13BE053800A5B3DB /* EstimatrTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC72EB0813BE1D7400A5B3DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DC72EB0913BE1D7A00A5B3DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DC72EB0A13BE1D8500A5B3DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,8 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC72EADA13BE053700A5B3DB /* InfoPlist.strings in Resources */,
-				DC72EAE313BE053700A5B3DB /* MainWindow.xib in Resources */,
-				DC72EAE913BE053700A5B3DB /* EstimatrViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +273,6 @@
 			files = (
 				DC72EADD13BE053700A5B3DB /* main.m in Sources */,
 				DC72EAE013BE053700A5B3DB /* EstimatrAppDelegate.m in Sources */,
-				DC72EAE613BE053700A5B3DB /* EstimatrViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,22 +301,6 @@
 				DC72EAD913BE053700A5B3DB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DC72EAE113BE053700A5B3DB /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC72EAE213BE053700A5B3DB /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		DC72EAE713BE053700A5B3DB /* EstimatrViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC72EAE813BE053700A5B3DB /* en */,
-			);
-			name = EstimatrViewController.xib;
 			sourceTree = "<group>";
 		};
 		DC72EAF813BE053800A5B3DB /* InfoPlist.strings */ = {
