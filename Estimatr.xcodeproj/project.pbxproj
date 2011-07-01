@@ -19,6 +19,9 @@
 		DC72EAFA13BE053800A5B3DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAF813BE053800A5B3DB /* InfoPlist.strings */; };
 		DC72EAFD13BE053800A5B3DB /* EstimatrTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DC72EAFC13BE053800A5B3DB /* EstimatrTests.h */; };
 		DC72EAFF13BE053800A5B3DB /* EstimatrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72EAFE13BE053800A5B3DB /* EstimatrTests.m */; };
+		DCFCB88413BE2E39003103C1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFCB88313BE2E39003103C1 /* MainWindow.xib */; };
+		DCFCB88713BE2F10003103C1 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFCB88613BE2F10003103C1 /* HomeView.xib */; };
+		DCFCB88A13BE2F25003103C1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFCB88913BE2F25003103C1 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		DC72EAFB13BE053800A5B3DB /* EstimatrTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EstimatrTests-Prefix.pch"; sourceTree = "<group>"; };
 		DC72EAFC13BE053800A5B3DB /* EstimatrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EstimatrTests.h; sourceTree = "<group>"; };
 		DC72EAFE13BE053800A5B3DB /* EstimatrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatrTests.m; sourceTree = "<group>"; };
+		DCFCB88313BE2E39003103C1 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		DCFCB88613BE2F10003103C1 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		DCFCB88813BE2F25003103C1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DCFCB88913BE2F25003103C1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +157,8 @@
 		DC72EB0813BE1D7400A5B3DB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DCFCB88313BE2E39003103C1 /* MainWindow.xib */,
+				DCFCB88613BE2F10003103C1 /* HomeView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -157,6 +166,8 @@
 		DC72EB0913BE1D7A00A5B3DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DCFCB88813BE2F25003103C1 /* HomeViewController.h */,
+				DCFCB88913BE2F25003103C1 /* HomeViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -236,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC72EADA13BE053700A5B3DB /* InfoPlist.strings in Resources */,
+				DCFCB88413BE2E39003103C1 /* MainWindow.xib in Resources */,
+				DCFCB88713BE2F10003103C1 /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 			files = (
 				DC72EADD13BE053700A5B3DB /* main.m in Sources */,
 				DC72EAE013BE053700A5B3DB /* EstimatrAppDelegate.m in Sources */,
+				DCFCB88A13BE2F25003103C1 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +455,7 @@
 				DC72EB0413BE053800A5B3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC72EB0513BE053800A5B3DB /* Build configuration list for PBXNativeTarget "EstimatrTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +464,7 @@
 				DC72EB0713BE053800A5B3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

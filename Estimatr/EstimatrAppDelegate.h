@@ -6,6 +6,6 @@
 @interface EstimatrAppDelegate : NSObject <UIApplicationDelegate> {}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet EstimatrViewController *viewController;
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 
 @end
